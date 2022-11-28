@@ -433,11 +433,11 @@
     untyped "^1.0.0"
 
 "@nuxt/kit@npm:@nuxt/kit-edge@latest":
-  version "3.0.1-rc.0-27814436.13e4f8b"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.1-rc.0-27814436.13e4f8b.tgz#2a9445c6d4adc8f56d8755c9e5656ac6147dd347"
-  integrity sha512-F5CUzIAK1rdmg/FQhzW0nPcv472gTTFi2iYShLg9HyLNtOmjLQDYnoT5isECTb2h7Odlhaip9UPGezkvH/yr2Q==
+  version "3.0.1-rc.0-27817134.e85e3ab"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.1-rc.0-27817134.e85e3ab.tgz#70de947193922205182220aff5de3d0a3336c888"
+  integrity sha512-lKjowf5rpgx0uWf6+LVQWnJGMuvyzk4T9jPq/0GGVXwZk1vYzkp7by9jnL4SMavunYyxSYYjChSvBCzVFV288w==
   dependencies:
-    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.1-rc.0-27814436.13e4f8b"
+    "@nuxt/schema" "npm:@nuxt/schema-edge@3.0.1-rc.0-27817134.e85e3ab"
     c12 "^1.0.1"
     consola "^2.15.3"
     defu "^6.1.1"
@@ -488,10 +488,10 @@
     unimport "^1.0.1"
     untyped "^1.0.0"
 
-"@nuxt/schema@npm:@nuxt/schema-edge@3.0.1-rc.0-27814436.13e4f8b":
-  version "3.0.1-rc.0-27814436.13e4f8b"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema-edge/-/schema-edge-3.0.1-rc.0-27814436.13e4f8b.tgz#be9dda836a27fea6ea77fc23e87be799633afb4e"
-  integrity sha512-f5hg2obu7nL7+LHGXQX3uV9UI6iHmBgNKhoyVd9Zkt/3CBa7ID3iUtjMdNCfqzy/J2a1pLkUTDFUqiNvAnmBLQ==
+"@nuxt/schema@npm:@nuxt/schema-edge@3.0.1-rc.0-27817134.e85e3ab":
+  version "3.0.1-rc.0-27817134.e85e3ab"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema-edge/-/schema-edge-3.0.1-rc.0-27817134.e85e3ab.tgz#630ff28729f9db696feca0b24ead291cc35612f6"
+  integrity sha512-3vg+tp9fN/7P72XIsfg+Idwl3jLUyfBbLT1ae2i1lh9tpZz640NqnqcgfvqhOwo10WFm6eobgswQjuzGRHwyoA==
   dependencies:
     c12 "^1.0.1"
     create-require "^1.1.1"
@@ -1289,9 +1289,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001426:
-  version "1.0.30001431"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001431.tgz#e7c59bd1bc518fae03a4656be442ce6c4887a795"
-  integrity sha512-zBUoFU0ZcxpvSt9IU66dXVT/3ctO1cy4y9cscs1szkPlcWb6pasYM144GqrUygUbT+k7cmUCW61cvskjcv0enQ==
+  version "1.0.30001434"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001434.tgz#ec1ec1cfb0a93a34a0600d37903853030520a4e5"
+  integrity sha512-aOBHrLmTQw//WFa2rcF1If9fa3ypkC1wzqqiKHgfdrXTWcU8C4gKVZT77eQAPWN1APys3+uQ0Df07rKauXGEYA==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -3439,7 +3439,7 @@ nuxi@3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt@3.0.0:
+nuxt@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-3.0.0.tgz#0909e6566d79805f3a4ed6229573817cbde12e89"
   integrity sha512-RNlD78uv04ZiXWmlx9f1tnJfrqsYAWHU+4gbgOTQpIBmQzHWPWiox+fm/1m93iKfEd5sJi9TJUoXX5yBObVZYw==
@@ -4976,6 +4976,11 @@ vue-bundle-renderer@^1.0.0:
   integrity sha512-43vCqTgaMXfHhtR8/VcxxWD1DgtzyvNc4wNyG5NKCIH19O1z5G9ZCRXTGEA2wifVec5PU82CkRLD2sTK9NkTdA==
   dependencies:
     ufo "^1.0.0"
+
+vue-demi@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.13.11.tgz#7d90369bdae8974d87b1973564ad390182410d99"
+  integrity sha512-IR8HoEEGM65YY3ZJYAjMlKygDQn25D5ajNFNoKh9RSDMQtlzCxtfQjdQgv9jjK+m3377SsJXY8ysq8kLCZL25A==
 
 vue-devtools-stub@^0.1.0:
   version "0.1.0"
